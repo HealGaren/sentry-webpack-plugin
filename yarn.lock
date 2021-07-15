@@ -213,6 +213,18 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@healgaren/sentry-cli@1.67.2-beta.2":
+  version "1.67.2-beta.2"
+  resolved "https://registry.yarnpkg.com/@healgaren/sentry-cli/-/sentry-cli-1.67.2-beta.2.tgz#2b79d868931aef04aa81305403091c4bb31e78e2"
+  integrity sha512-y0gxVPNqEdkzopSRgyJEKovqjQQVo1H0qM5bkjLzbNyPy/p82Lnol09hQJuO7BxWEcP0JlNRIp+VxZiggToHzA==
+  dependencies:
+    https-proxy-agent "^5.0.0"
+    mkdirp "^0.5.5"
+    node-fetch "^2.6.0"
+    npmlog "^4.1.2"
+    progress "^2.0.3"
+    proxy-from-env "^1.1.0"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -360,18 +372,6 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
-
-"@sentry/cli@^1.67.1":
-  version "1.67.1"
-  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-1.67.1.tgz#0ae0a892851913083e31f64c7b0ffcdf9f59da58"
-  integrity sha512-TKPBC/mMaC6EageH3s4QM4PVr/QFSfgRuGqfc7cAzRRLnMLTvXsvxlEkVnRGCDglvSru0/NwHf1XSv/Z084zkQ==
-  dependencies:
-    https-proxy-agent "^5.0.0"
-    mkdirp "^0.5.5"
-    node-fetch "^2.6.0"
-    npmlog "^4.1.2"
-    progress "^2.0.3"
-    proxy-from-env "^1.1.0"
 
 "@tootallnate/once@1":
   version "1.1.2"

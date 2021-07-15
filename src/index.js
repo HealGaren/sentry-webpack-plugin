@@ -1,4 +1,4 @@
-const SentryCli = require('@sentry/cli');
+const SentryCli = require('@healgaren/sentry-cli');
 const path = require('path');
 const util = require('util');
 
@@ -401,7 +401,7 @@ class SentryCliPlugin {
       })
       .then(() => this.cli.releases.uploadSourceMaps(release, this.options))
       .then(() => {
-        const { commit, previousCommit, repo, auto, ignoreMissing } =
+        const { commit, previousCommit, repo, auto, ignoreMissing, previousCommitFallback } =
           this.options.setCommits || this.options;
 
         if (auto || (repo && commit)) {
@@ -411,6 +411,7 @@ class SentryCliPlugin {
             repo,
             auto,
             ignoreMissing,
+            previousCommitFallback,
           });
         }
         return undefined;

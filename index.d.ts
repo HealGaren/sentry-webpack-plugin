@@ -20,7 +20,7 @@ export interface SentryCliPluginOptions {
    * (requires access to git CLI and root directory to be a valid repository).
    */
   release?: string;
-  
+
   /**
    * Unique identifier for the distribution, used to further segment your release.
    * Usually your build number.
@@ -172,6 +172,11 @@ export interface SentryCliPluginOptions {
      * Automatically choose the associated commit (uses the current commit). Overrides other setCommit options.
      */
     auto?: boolean;
+
+    /**
+     * previous commit api fallback flag. for sentry on-premise v9.1.2
+     */
+    previousCommitFallback?: boolean;
 
     /**
      * Allow for ignoring missing commits in set-commit.
