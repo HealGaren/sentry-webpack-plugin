@@ -1,4 +1,4 @@
-const SentryCliPlugin = require('@sentry/webpack-plugin');
+const SentryCliPlugin = require('@healgaren/sentry-webpack-plugin');
 const path = require('path');
 
 module.exports = {
