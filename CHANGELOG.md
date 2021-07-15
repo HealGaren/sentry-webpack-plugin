@@ -6,6 +6,10 @@
 
 ## v1.16.0
 
+- feat: add prev-commit-fallback by dependency changing (`@sentry/cli` -> `@healgaren/sentry-cli`)
+
+## v1.16.0
+
 - feat: Add `ignoreMissing` sub-option to `setCommits` option (#281)
 - fix: Add missing `dist` option to `SentryCliPluginOptions` type (#285)
 - deps: Update sentry-cli to v1.67
