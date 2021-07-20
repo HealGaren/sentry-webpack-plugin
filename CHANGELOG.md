@@ -4,9 +4,11 @@
 
 - "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me." — Michael Scott
 
-## v1.16.0
+## v1.16.1-beta.2
 
-- feat: add prev-commit-fallback by dependency changing (`@sentry/cli` -> `@healgaren/sentry-cli`)
+- feat: `@sentry/cli` -> `@healgaren/sentry-cli`
+    - add prev-commit-fallback by dependency changing
+    - retry maximum 3 times when request failed
 
 ## v1.16.0
 
