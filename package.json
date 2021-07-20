@@ -18,7 +18,7 @@
     "node": ">= 8"
   },
   "dependencies": {
-    "@healgaren/sentry-cli": "1.67.2-beta.2"
+    "@healgaren/sentry-cli": "1.67.2-beta.3"
   },
   "devDependencies": {
     "codecov": "^3.5.0",

@@ -213,10 +213,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@healgaren/sentry-cli@1.67.2-beta.2":
-  version "1.67.2-beta.2"
-  resolved "https://registry.yarnpkg.com/@healgaren/sentry-cli/-/sentry-cli-1.67.2-beta.2.tgz#2b79d868931aef04aa81305403091c4bb31e78e2"
-  integrity sha512-y0gxVPNqEdkzopSRgyJEKovqjQQVo1H0qM5bkjLzbNyPy/p82Lnol09hQJuO7BxWEcP0JlNRIp+VxZiggToHzA==
+"@healgaren/sentry-cli@1.67.2-beta.3":
+  version "1.67.2-beta.3"
+  resolved "https://registry.yarnpkg.com/@healgaren/sentry-cli/-/sentry-cli-1.67.2-beta.3.tgz#0cea35c62f54ffd28a1350aa0d7158494222dd46"
+  integrity sha512-zanJxqqVjmedXPwY3AIeDA4htjkQoTeh6SQExXRcxAeR6EpHTdidxgyfnH8c4SCSj3IcZrBnJbuQ1Yl/VyvFOg==
   dependencies:
     https-proxy-agent "^5.0.0"
     mkdirp "^0.5.5"
